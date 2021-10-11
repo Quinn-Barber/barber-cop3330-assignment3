@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+App->main : Main function
+main -> Functions: Access Functions Class
+Functions -> openfile: Access Input Scanner
+openfile -> main: Return Scanner
+main -> Functions: Access Functions Class
+Functions -> scan: Scan Input File
+scan -> Employee: Send Input Info
+Employee -> scan: Stored Input Info
+scan -> main: Return Stored Input Info
+main -> output: Tabled Input Info
+@enduml

@@ -1,0 +1,23 @@
+
+App class: main
+
+main will run two commands then print the returned output.
+
+- openfile
+- scan
+
+Functions class: openfile, scan
+
+openfile - gets scanner input to text file
+returns to main
+
+scan - accesses Employee class. Returns
+stored information in Employee class.
+
+Employee class: Stores first name, last name, salary, and an integer.
+the integer is used to tell when an ArrayList is done, all stored lists
+will have 0 as the integer, and when there is no more to print the
+integer will store the number of employees totaled.
+
+main will print the returned output from the scan file using
+the Employee class.

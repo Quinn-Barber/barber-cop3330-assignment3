@@ -1,0 +1,18 @@
+
+
+App Class : main function
+
+main function:
+Sets up scanner to input file then sends scanner
+to Functions.output which returns proper output.
+Also asks for the name of the output file and displays
+proper messages to let the User know.
+
+Functions Class : output function
+
+output function:
+Sets up a string builder to go line by line in the input
+and replace all of the word "utilize" with "use". Returns
+the string value of the string builder which is later printed
+into the output file through main. It is redirected to remain
+in the ex45 folder.

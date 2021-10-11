@@ -1,0 +1,28 @@
+
+App class: main function
+
+main function:
+Sets a scanner up to read from input
+file and passes the scanner to Functions.output.
+An ArrayList<Words> will be returned which will
+be iterated through to find the maximum number of
+word occurrences, printing, and then setting to 0.
+Repeating until every word has been printed to
+the system console.
+
+Words class:
+Holds two variables for their use in an ArrayList.
+A string and an integer. One holds the string of the
+word that is found, and the other holds the number
+of times the word is found in the input file.
+
+Functions class: output function
+
+output function:
+Uses the scanner to look through the
+input and finds out whether or not
+an ArrayList<Words> has that word in it.
+If it doesn't adding a new word with one
+occurrence. But if it does, adding +1
+to the occurrence. Then being returned
+to main to be printed.

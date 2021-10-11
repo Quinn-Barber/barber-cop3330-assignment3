@@ -1,0 +1,20 @@
+
+App Class: main function
+
+main function:
+runs two commands
+input and create
+
+Functions Class: input function, create function
+
+input function:
+Asks for and stores user input
+
+create function:
+Creates files that were requested by the user
+
+Input Class: Input function
+
+Input function:
+Stores user input gathered from Functions.input in a simple class
+that can be passed to Functions.create

@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+App -> main: Main Function
+main -> Functions: Functions Class Called
+Functions -> input: Takes User Input
+input -> Input: Calls 'Input' Class
+Input -> input: Stores User Input
+input -> main: Returns User Input
+main -> Functions: Functions Classs Called
+Functions -> create: Creates Users Requested Files Based Off Of Input
+create -> main: Returns '1' If Files Created And '0' If Not
+@enduml

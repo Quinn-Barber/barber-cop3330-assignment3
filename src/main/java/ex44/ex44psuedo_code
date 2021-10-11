@@ -1,0 +1,17 @@
+
+
+App Class: main function
+
+main function:
+Asks for user input to search, sends input over to
+Functions.foundProduct, which searches and if found
+returns from function after print statements.
+Otherwise, repeatedly asks for input
+
+Functions Class: foundProduct function
+
+foundProduct function:
+searches through a jsonReader to find out if the
+User inputted string matches the name of any products,
+if it does it will print out the product information and
+return true, otherwise it will return false.

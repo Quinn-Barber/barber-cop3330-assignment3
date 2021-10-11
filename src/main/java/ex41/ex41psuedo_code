@@ -1,0 +1,20 @@
+
+
+App class : main
+
+main will run two commands.
+
+- openfile
+- sort
+
+Functions class : openfile, sort
+
+openfile will find the scanner input
+for the text file it is reading from
+and return it to main
+
+sort will take the same scanner from openfile
+and use it to sort the names as well as print
+them in alphabetical order
+It will return arraylist of strings of the names
+in order so that it can be tested.

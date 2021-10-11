@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+App -> main: Main Function
+main -> Functions: Functions Class
+Functions -> output: Scanner Pointing\nTo Input Text File
+output -> Words: Uses Words Class\nTo Store Input File\nIn An ArrayList<Words>
+output -> main: Returns ArrayList<Words> To Main\nIncluding Words And Their Occurrences
+main -> console: Printed Output In Sorted And Formatted Form
+@enduml

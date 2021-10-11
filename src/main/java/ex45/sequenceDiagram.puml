@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+App -> main: Main Function
+main -> Functions: Functions Class
+Functions -> output: Sends Over Scanner \nTo Input
+
+exercise45_input.txt -> output: Reads Line By Line And \nReplaces "utilize" With "use"
+output -> main: Returns String For\nOutput Into Txt File
+main -> output.txt : Named After User \nInput, File For Output
+
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+main -> Functions: Enter Class
+Functions -> openfile: Open Input File
+openfile -> main: Return Scanner
+main -> Functions: Re-Enter Class
+Functions -> sort: Relay Input Scanner
+sort -> main: Print To Output Then Return To Caller
+@enduml

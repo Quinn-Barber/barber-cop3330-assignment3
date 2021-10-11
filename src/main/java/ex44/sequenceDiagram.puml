@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+App -> main: Main Function
+main -> Functions: Functions Class
+Functions -> foundProduct: Sends jsonReader And String To Search For User Input
+foundProduct -> main: If Found Prints Product Information And Returns True Otherwise Returns False
+
+@enduml
